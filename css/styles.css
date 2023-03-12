@@ -1,0 +1,187 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: #fafafa;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #424761;
+}
+
+body,
+.navbar-container,
+h1,
+h2,
+footer,
+.resource,
+.groupHeader,
+.status {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 4rem;
+  width: 80rem;
+  margin-top: 2.5rem;
+}
+
+.nav-slash {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #bfc2d44d;
+}
+
+.navbar-button,
+.grayIcons,
+.percentage {
+  margin-left: auto;
+}
+
+.helpdeskButton {
+  width: 15rem;
+  height: 4rem;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+  background: #5f59f7;
+  border: solid 1px #5f59f7;
+  border-radius: 4px;
+}
+
+.big-check {
+  font-size: 6.6rem;
+  color: #21b062;
+  margin-top: 10rem;
+}
+
+.small-icons {
+  font-size: 1.5rem;
+  padding-right: 0.7rem;
+  padding-left: 0.4rem;
+}
+
+.small-check-icon {
+  color: #21b062;
+}
+
+.degraded-icon {
+  color: #ffb72b;
+}
+
+.downtime-icon {
+  color: #de3618;
+}
+
+.tooltip {
+  font-size: 1rem;
+  margin-top: -1.1rem;
+  margin-left: 0.4rem;
+  color: #63738180;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 4rem;
+  color: #222b35;
+}
+
+h2 {
+  line-height: 2rem;
+  font-weight: 400;
+  color: #42476180;
+}
+
+.status {
+  width: 80rem;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  background: rgba(210, 209, 209, 0.775);
+  margin-top: 4rem;
+  font-weight: 600;
+}
+
+.groupHeader {
+  background: #fafafc;
+  line-height: 2rem;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  padding: 2.5rem;
+  align-items: center;
+}
+
+.resource {
+  height: 9rem;
+  background: #ffffff;
+  margin-bottom: 0.15rem;
+  padding: 2.5rem 2.5rem 1.5rem 2.5rem;
+  display: grid;
+  grid-template-rows: 2;
+}
+
+.row {
+  display: flex;
+}
+
+.percentage {
+  margin-right: 0.5rem;
+}
+
+.resource-bottom {
+  border-radius: 0 0 10px 10px;
+}
+
+footer {
+  width: 80rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}
+
+.bulogo {
+  height: 2rem;
+}
+
+.groupHeader i {
+  color: #dfe0e1;
+  margin-left: 2.5rem;
+  font-size: 1.7rem;
+}
+
+.row-bar {
+  justify-content: center;
+}
+
+.bar {
+  height: 4rem;
+  width: 0.5rem;
+  border-radius: 10px;
+  margin-right: 0.33rem;
+}
+
+.bar-green {
+  background-color: #21b062;
+}
+
+.bar-orange {
+  background-color: #ffb72b;
+}
+
+.bar-red {
+  background-color: #de3618;
+}
+
+.bar-last {
+  margin-right: 0;
+}
